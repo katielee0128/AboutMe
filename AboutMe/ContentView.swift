@@ -12,7 +12,7 @@ struct ContentView: View {
     @State private var button = "Facts"
     @State private var next = "End"
     var body: some View {
-        VStack(spacing: 15) {
+        VStack(spacing: 14) {
             ZStack {
                 Image("unnamed-1")
                     .resizable(resizingMode: .stretch)
